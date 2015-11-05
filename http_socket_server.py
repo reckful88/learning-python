@@ -1,4 +1,11 @@
 #encoding: utf-8
+'''
+用socket与服务器交互通信
+客户端输入：
+nc 127.0.0.1 55667
+'''
+
+
 import socket
 import time
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
