@@ -1,8 +1,14 @@
 <html>
     <head>
-        <title>{{ title  }} - chengjidan</title>
+        {% if title %}
+        <title>{{title}} - chengjidan</title>
+        {% else %}
+        <title></title>
+        {% endif %}
     </head>
     <body>
-        <h1>Hello,{{user.nickname}}! Your score is {{ user.score }}</h1>
+        {% for user in users %}
+        <p>{{user.nickname}} get: <b>{{user.score}}</b></p>
+        {% endfor %}
     </body>
 </html>
