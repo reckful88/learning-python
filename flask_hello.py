@@ -8,22 +8,6 @@ elinks --dump http://ip:5000/user/xxxxxx
 /user/ 后面输入什么 页面就显示什么
 '''
 
-
-#from flask import Flask
-#app = Flask(__name__)
-
-#@app.route('/')
-#def hello_world():
-#	return '<h1>Hello World!</h1>'
-#if __name__ == '__main__':
-#	app.run()
-#def index():
-#	return 'Index Page'
-#@app.route('/hello')
-#def hello():
-#	return 'Hello World'
-#
-#
 from flask import Flask
 app = Flask(__name__)
 
@@ -39,4 +23,12 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+
+#方法二
+#from flask import request
+
+#@app.reoute("/")
+#def index():
+#    user_agent = request.headers.get("User-Agent")
+#    return 'your browser is {0} .format(user_agent)
 
