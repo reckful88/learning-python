@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
+
+'''
+elinks --dump http://ip:5000 
+        &
+elinks --dump http://ip:5000/user/xxxxxx
+
+/user/ 后面输入什么 页面就显示什么
+'''
+
+
 #from flask import Flask
 #app = Flask(__name__)
 
