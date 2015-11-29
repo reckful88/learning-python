@@ -20,6 +20,19 @@ def f(N):
 
 print f(3)
 
+f(1000)  就会爆，因为默认的上限是1000，
+查看：
+import sys
+sys.getrecursionlimit()
+1000
+
+修改：
+sys.setrecursionlimit(2048)  ＃修改上限为2048
+sys.getrecursionlimit()
+2048
+
+这时再执行 f(1000) 就没问题了
+
 '''
 
 
