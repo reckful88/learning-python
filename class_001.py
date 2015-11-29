@@ -17,6 +17,9 @@ class Student(object):
 	def get_name(self):
 		return self.__name
 
+''' 以下这些调用方法 是实例化 
+上面都是在初始化，定制模版 '''
+
 tom = Student('tom',99, 17)
 lily = Student('lily',87, 19)
 
