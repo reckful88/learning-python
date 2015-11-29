@@ -13,7 +13,7 @@ class Employee(object):
                 '''
 
 	def displayCount(self):
-		print "Total Employee %d" % Employee.empCount
+		print "Total Employee %d" % Employee.empCount # %d 十进制数字
 	def displayEmployee(self):
 		print "Name : ",self.name, ",Salary: ",self.salary
 
