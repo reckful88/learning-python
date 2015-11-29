@@ -34,6 +34,8 @@ print tom.get_name()
 
 tom.get_score()
 lily.get_name()
+print tom.name
+print tom.__name ＃这句则会报错，因为__name是私有的，无法直接调用
 
 '''
 
