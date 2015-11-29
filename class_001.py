@@ -25,3 +25,12 @@ print tom.get_name()
 
 tom.change_name('xiaotom')
 print tom.get_name()
+
+'''
+调用方法
+
+tom.get_score()
+lily.get_name()
+
+'''
+
