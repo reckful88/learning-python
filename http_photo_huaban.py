@@ -10,6 +10,7 @@ import re
 import os
 import os.path
 
+
 class HuabanCrawler():
     """ 抓去花瓣网上的图片 """
 
