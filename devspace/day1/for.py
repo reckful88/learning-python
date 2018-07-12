@@ -2,7 +2,25 @@
 # -*- coding:utf-8 -*-
 # Author: lifangcheng
 
+'''
 # 步长
 
 for i in range(0,10,3):
     print('loop', i)
+'''
+
+# contine
+
+'''
+contine 和 break 的区别：
+
+contine： 结束当前循环，进入下一次循环
+break：结束整个循环
+'''
+
+for i in range(0,10):
+    if i < 5:
+        print("loop", i)
+    else:
+        continue
+    print("lalala...")
