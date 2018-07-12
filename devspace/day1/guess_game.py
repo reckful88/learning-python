@@ -23,6 +23,7 @@ while True:
     count = count +1
 '''
 
+'''
 # 版本2
 
 age_of_lfc = 26
@@ -40,3 +41,20 @@ while count < 3:
     count = count +1
 else:
     print("You geuss too many...")
+'''
+
+# 版本3
+
+age_of_lfc = 26
+
+for i in range(3):
+    guess_age = int(input("guess a age: "))
+    if guess_age == age_of_lfc:
+        print("right")
+        break
+    elif guess_age > age_of_lfc:
+        print("old")
+    else:
+        print("young")
+else:
+    print("try too many")
