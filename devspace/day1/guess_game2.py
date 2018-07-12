@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*-
 # Author: lifangcheng
 
+# 错误尝试达到3次后，询问是否继续，只要输入的不是 N 或者 n 就可以继续。
+
 age_of_lfc = 26
 
 count = 0
