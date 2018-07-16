@@ -8,7 +8,7 @@
 contine 和 break 的区别：
 
 contine： 结束当前循环，进入下一次循环
-break：结束整个循环
+break：跳出当前循环
 '''
 
 for i in range(0,10):
