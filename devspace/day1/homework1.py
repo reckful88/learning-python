@@ -10,7 +10,6 @@
 * 输错三次后锁定
 '''
 
-
 with open('/Users/lifangcheng/ENV3.6/learning-python/devspace/day1/userpasswd', 'r') as f1:
     userpasswd = f1.readlines()
 
