@@ -24,6 +24,7 @@ print(names.count('lfc'))   # 统计一个列表里面有多少个 'lfc'
 names.append('zxc') # 追加一个元素到列表的末尾
 print(names)
 names.insert(2, 'insert')   # 将一个元素, 插入到指定位置
+# names.insert(1, ['aaa','bb','cc'])
 print(names)
 
 
