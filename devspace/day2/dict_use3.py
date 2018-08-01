@@ -49,8 +49,11 @@ fromkeys
 初始化一个新的字典, 并赋值
 '''
 new_dict = dict.fromkeys([6, 7, 8], "test")
-new_dict2 = dict.fromkeys([6, 7, 8])
+new_dict2 = dict.fromkeys([3, 4, 5])
 print(new_dict)
 print(new_dict2)
 
-new_dict3 = dict.
+new_dict3 = dict.fromkeys([2, 3, 4], [1, {'name': 'lfc'}, 444])  # 2, 3, 4  这三个 key 共享一个内存地址
+print(new_dict3)
+new_dict3[3][1]['name'] = 'lifangcheng'
+print(new_dict3)
